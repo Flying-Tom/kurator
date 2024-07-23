@@ -559,7 +559,7 @@ func TestRenderClusterStorage(t *testing.T) {
 	}
 }
 
-func TestRendeFlagger(t *testing.T) {
+func TestRenderFlagger(t *testing.T) {
 	cases := []struct {
 		name   string
 		fleet  types.NamespacedName
@@ -602,7 +602,7 @@ func TestRendeFlagger(t *testing.T) {
 	}
 }
 
-func TestRendeRolloutTestloader(t *testing.T) {
+func TestRenderRolloutTestloader(t *testing.T) {
 	cases := []struct {
 		name   string
 		fleet  types.NamespacedName
